@@ -1,3 +1,170 @@
+/* These are the main color palate of the webpage, linked to the style throughout. */
+:root {
+  --primary: #d45fc2;
+  --secondary: #2e2e2e;
+  --accent: #faf0af;
+  --highlight: #e81e9e;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.bg-color {
+  background-color: #ebebeb;
+}
+
+/* This is the flex container that spans the length of the header and nav bar. */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 2%;
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+/* This id controls the hero display of the text "Clay Holland" */
+#hero {
+  font-size: 3em;
+  color: var(--secondary);
+  padding: 30px 10px;
+  background: var(--primary);
+  font-family: 'Playfair Display', serif;
+}
+
+/* This series of tags controls the color,style, and interactions of the navbar links. */
+header a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.links {
+  list-style: none;
+  font-size: 130%;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.links li {
+  display: inline;
+  padding: 15px 15px;
+  line-height: 1.5;
+}
+
+.links li a {
+  transition: all 0.3s ease-out 0s;
+}
+
+.links li a:hover {
+  color: var(--primary);
+}
+
+/* This changes the selection color to pink on the main page. */
+::selection {
+  background-color: var(--highlight);
+  color: #2b2b2b;
+}
+
+/* This is the series of attributes controlling the meteor shower graphic and its interactions. */
+figure h2 {
+  font-size: 2em;
+  color: var(--primary);
+  position: absolute;
+  right: 0;
+  top: 300px;
+  padding: 20px 30px;
+  margin: 20px 30px;
+  z-index: 2;
+  background-color: var(--secondary);
+  font-family: 'Playfair Display', serif;
+}
+
+figure img {
+  height: 300px;
+  width: 100%;
+}
+
+/* These are the flexbox container that controls the left/right formatting of the remainder of the page. */
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  color: var(--primary);
+  line-height: 1.2;
+}
+
+article section p {
+  line-height: 1.5;
+  color: var(--secondary);
+}
+
+.article-1 {
+  margin-top: 40px;
+}
+
+/* Style and positioning of contact links. */
+.contactlinks a {
+  color: var(--secondary);
+  text-decoration: none;
+  border-bottom: 3px solid var(--primary);
+}
+
+.imgarray {
+  border: 7px solid var(--secondary);
+  width: 100%;
+}
+
+.arrayhero {
+  border: 7px solid var(--secondary);
+  width: 100%;
+}
+
+h4 {
+  font-size: 2em;
+  color: var(--primary);
+  background-color: var(--secondary);
+  padding: 10px 30px 40px 20px;
+}
+
+.title {
+  position: relative;
+  right: 20px;
+  bottom: 130px;
+  margin-right: 600px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: -120px;
+  z-index: 3;
+}
+
+.title p {
+  color: var(--accent);
+  z-index: 4;
+  position: relative;
+  bottom: 50px;
+  left: 20px;
+  font-size: 80%;
+}
+
+.title a {
+   color: var(--primary);
+   position: relative;
+   bottom: 3px;
+}
+
+.selfie {
+   width: 100%;
+   height: 100%;
+   max-width: 400px;
+}
+
 .App {
   text-align: center;
 }
