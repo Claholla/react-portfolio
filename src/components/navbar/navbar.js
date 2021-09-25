@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const navbar = () => {
     return (
@@ -6,10 +7,10 @@ const navbar = () => {
               <nav className="links">
                   <ul className="level has-text-centered is-tablet">
                       <li className="level-item">
-                          <a href="#about-me" className="links">About</a>
+                          <NavLink to="/about" activeStyle={{ color: "#d45fc2"}} className="links">About</NavLink>
                       </li>
                       <li className="level-item">
-                          <a href="#work" className="links">Work</a>
+                      <NavLink to="/projects" activeStyle={{ color: "#d45fc2"}} className="links">Work</NavLink>
                       </li>
                       <li className="level-item">
                       <h1 id="hero" className="level-item">
@@ -17,7 +18,7 @@ const navbar = () => {
                       </h1>
                       </li>
                       <li className="level-item">
-                          <a href="#contact" className="links">Contact</a>
+                      <NavLink to="/contact" activeStyle={{ color: "#d45fc2"}} className="links">Contact</NavLink>
                       </li>
                       <li className="level-item">
                           <a href="./assets/images/Clay Holland Resume 2021.pdf" className="links">Resume</a>

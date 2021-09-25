@@ -4,18 +4,28 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from './components/navbar/navbar';
 import Footer from './components/footer/footer';
 import Homepage from './components/homepage/homepage';
+import Projects from './components/projects/projects';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <Router>
-      <Switch>
-        <Route exact path="/">
-          <Navbar />
-          <Homepage />
-          <Footer />
-        </Route>
-      </Switch>
+      <Navbar />
+        <Switch>
+          <Route exact path="/">
+            <Homepage />
+          </Route>
+          <Route exact path="/about">
+            <Homepage />
+          </Route>
+          <Route exact path="/projects">
+            <Projects />
+          </Route>
+          <Route exact path="/contact">
+          
+          </Route>
+        </Switch>
+        <Footer />
     </Router>
   );
 }
