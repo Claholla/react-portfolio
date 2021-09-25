@@ -16,6 +16,7 @@
 body {
   height: 100%;
   width: 100%;
+  background-color: #ebebeb;
 }
 
 .bg-color {
@@ -24,9 +25,6 @@ body {
 
 /* This is the flex container that spans the length of the header and nav bar. */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 25px 2%;
   background-color: var(--secondary);
   color: var(--primary);
@@ -56,7 +54,6 @@ header a {
 .links li {
   display: inline;
   padding: 15px 15px;
-  line-height: 1.5;
 }
 
 .links li a {
