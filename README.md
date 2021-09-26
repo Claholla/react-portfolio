@@ -6,30 +6,9 @@
   This is a refactored version of my portfolio page using React to contain it to a single page and utilize its VDOM technology for a more responsive interface and faster loading of separate sections of the page.
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-  ## Table of Contents
+  ## Deployed Application
 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [License](#license)
-  - [Questions](#questions)
-
-  ## Installation
-
-  N/A
-
-  ## Usage
-
-  N/A
-
-  ## Contributing
-
-  N/A
-
-  ## Tests
-
-  N/A
+  [Link to Application](https://claholla.github.io/react-portfolio/)
 
   ## License
 
