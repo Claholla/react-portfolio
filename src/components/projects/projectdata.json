@@ -16,11 +16,35 @@
         "technologies": "HTML / CSS / MySQL / JavaScript / Sequelize / Express / Handlebars"
     },
     {
-        "id": 2,
-        "image": "https://raw.githubusercontent.com/Claholla/react-portfolio/main/src/components/images/hat-trick-platform-screenshot.png",
-        "title": "The HatTrick Platform",
-        "application": "https://the-hattrick-platform.herokuapp.com/",
-        "github": "https://github.com/Claholla/Project_2_Purity_Ring",
-        "technologies": "HTML / CSS / MySQL / JavaScript / Sequelize / Express / Handlebars"
+        "id": 3,
+        "image": "https://raw.githubusercontent.com/Claholla/react-portfolio/main/src/components/images/employee-tracker-screenshot.png",
+        "title": "Employee Tracker",
+        "application": "https://drive.google.com/file/d/1qlGRrAGKj-IHJ6mmdssMbiM-SkXg0oXN/view",
+        "github": "https://github.com/Claholla/employee-tracker",
+        "technologies": "JavaScript / MySQL / Inquirer"
+    },
+    {
+        "id": 4,
+        "image": "https://user-images.githubusercontent.com/80665978/133908098-cc77f905-56a1-4f0b-9bc0-4cb36b0fc0c3.png",
+        "title": "Progressive Budget",
+        "application": "https://still-anchorage-04366.herokuapp.com/",
+        "github": "https://github.com/Claholla/progressive-budget",
+        "technologies": "JavaScript / MongoDB / Mongoose / Express"
+    },
+    {
+        "id": 5,
+        "image": "https://user-images.githubusercontent.com/80665978/133908495-53060e4a-c47e-491a-aeb6-9a7e6156b7bb.png",
+        "title": "Workout Tracker",
+        "application": "https://pacific-gorge-46300.herokuapp.com/?id=6146c24c0ca92a00166316a6",
+        "github": "https://github.com/Claholla/workout-tracker",
+        "technologies": "JavaScript / MongoDB / Mongoose / IndexedDB / Express"
+    },
+    {
+        "id": 6,
+        "image": "https://user-images.githubusercontent.com/80665978/133908098-cc77f905-56a1-4f0b-9bc0-4cb36b0fc0c3.png",
+        "title": "E-Commerce Back End",
+        "application": "https://drive.google.com/file/d/1Gh65XkyBO7pfowMEOFoO9hLOQtEdDOm3/view",
+        "github": "https://github.com/Claholla/e-commerce-back-end",
+        "technologies": "JavaScript / MongoDB / Mongoose / IndexedDB / Express"
     }
 ]
