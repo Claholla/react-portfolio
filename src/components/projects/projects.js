@@ -17,7 +17,8 @@ function projects() {
                              title = {project.title}
                              image = {project.image}
                              application = {project.application}
-                             github = {project.github} />
+                             github = {project.github} 
+                             technologies = {project.technologies} />
                 )}
             </generateCard>
 
@@ -29,7 +30,7 @@ function projects() {
 };
 
 function generateCard(props) {
-    return <div>{props.children}</div>
+    return <div class="spacer">{props.children}</div>
 }
 
 export default projects;

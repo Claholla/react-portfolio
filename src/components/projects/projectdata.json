@@ -1,10 +1,26 @@
 [
     {
         "id": 1,
-        "image": "../images/food-finders.png",
+        "image": "https://raw.githubusercontent.com/Claholla/react-portfolio/main/src/components/images/food-finders.png",
         "title": "Food Finders",
         "application": "https://claholla.github.io/Food-Finders/",
         "github": "https://github.com/Claholla/Food-Finders",
         "technologies": "HTML / CSS / JavaScript"
+    },
+    {
+        "id": 2,
+        "image": "https://raw.githubusercontent.com/Claholla/react-portfolio/main/src/components/images/hat-trick-platform-screenshot.png",
+        "title": "The HatTrick Platform",
+        "application": "https://the-hattrick-platform.herokuapp.com/",
+        "github": "https://github.com/Claholla/Project_2_Purity_Ring",
+        "technologies": "HTML / CSS / MySQL / JavaScript / Sequelize / Express / Handlebars"
+    },
+    {
+        "id": 2,
+        "image": "https://raw.githubusercontent.com/Claholla/react-portfolio/main/src/components/images/hat-trick-platform-screenshot.png",
+        "title": "The HatTrick Platform",
+        "application": "https://the-hattrick-platform.herokuapp.com/",
+        "github": "https://github.com/Claholla/Project_2_Purity_Ring",
+        "technologies": "HTML / CSS / MySQL / JavaScript / Sequelize / Express / Handlebars"
     }
 ]
