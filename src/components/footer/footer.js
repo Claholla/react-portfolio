@@ -6,7 +6,7 @@ const footer = () => {
             <div className="columns">
                 <div className="column is-one-third"></div>
                 <div className="column">
-                <nav className="level">
+                <nav classNamed="level">
                     <div className="level-item has-text-centered">
                     <div>
                         <a href="https://github.com/Claholla" className="links contactlinks">GitHub</a>
