@@ -23,6 +23,11 @@ body {
   margin-bottom: 40px;
 }
 
+.submitbtn {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
 .bg-color {
   background-color: #ebebeb;
 }
