@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.868776cf.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.2f177ad6.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.2f177ad6.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.74f7a056.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.74f7a056.js.map",
+    "static/css/2.f2512455.chunk.css": "/react-portfolio/static/css/2.f2512455.chunk.css",
+    "static/js/2.e9988fb7.chunk.js": "/react-portfolio/static/js/2.e9988fb7.chunk.js",
+    "static/js/2.e9988fb7.chunk.js.map": "/react-portfolio/static/js/2.e9988fb7.chunk.js.map",
+    "static/js/3.a7dc10be.chunk.js": "/react-portfolio/static/js/3.a7dc10be.chunk.js",
+    "static/js/3.a7dc10be.chunk.js.map": "/react-portfolio/static/js/3.a7dc10be.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/2.f2512455.chunk.css.map": "/react-portfolio/static/css/2.f2512455.chunk.css.map",
+    "static/css/main.868776cf.chunk.css.map": "/react-portfolio/static/css/main.868776cf.chunk.css.map",
+    "static/js/2.e9988fb7.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.e9988fb7.chunk.js.LICENSE.txt",
+    "static/media/Clay Holland Resume 2021.908d6756.pdf": "/react-portfolio/static/media/Clay Holland Resume 2021.908d6756.pdf",
+    "static/media/profilephoto-2021.83446493.png": "/react-portfolio/static/media/profilephoto-2021.83446493.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74f7a056.js",
+    "static/css/2.f2512455.chunk.css",
+    "static/js/2.e9988fb7.chunk.js",
+    "static/css/main.868776cf.chunk.css",
+    "static/js/main.2f177ad6.chunk.js"
+  ]
+}
