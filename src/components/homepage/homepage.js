@@ -12,7 +12,7 @@ const homepage = () => {
                     About
                 </h3>
                 <img src={selfie} className="selfie column is-3 is-offset-1-mobile is-tablet" alt="That's me!" />
-                <p className="column is-4 is-offset-1-mobile">
+                <p className="column is-4 is-offset-1-mobile is-size-5">
                     I am a Saint Paul based student Web Developer with multiple years of experience working in technical fields. I have a deep interest in learning and applying computer science topics. I have client and customer-facing experience, and I have several years of leadership experience spanning customer service jobs as well as jobs working in a creative capacity.
                     <br /><br />
                     My interests include video editing, coding for games, playing guitar, and baking.

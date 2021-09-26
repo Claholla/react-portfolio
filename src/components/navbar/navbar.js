@@ -21,7 +21,7 @@ const navbar = () => {
                       <NavLink to="/contact" activeStyle={{ color: "#d45fc2"}} className="links">Contact</NavLink>
                       </li>
                       <li className="level-item">
-                          <a href="./assets/images/Clay Holland Resume 2021.pdf" className="links">Resume</a>
+                      <NavLink to="/resume" activeStyle={{ color: "#d45fc2"}} className="links">Resume</NavLink>
                       </li>
                   </ul>
               </nav>

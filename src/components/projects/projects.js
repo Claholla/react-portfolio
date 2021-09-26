@@ -30,7 +30,7 @@ function projects() {
 };
 
 function generateCard(props) {
-    return <div class="spacer">{props.children}</div>
+    return <div className="spacer">{props.children}</div>
 }
 
 export default projects;

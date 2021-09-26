@@ -6,6 +6,7 @@ import Footer from './components/footer/footer';
 import Homepage from './components/homepage/homepage';
 import Projects from './components/projects/projects';
 import ContactForm from './components/contact/contact';
+import Resume from './components/resume/resume';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -24,6 +25,9 @@ function App() {
           </Route>
           <Route exact path="/contact">
             <ContactForm />
+          </Route>
+          <Route exact path="/resume">
+            <Resume />
           </Route>
         </Switch>
         <Footer />

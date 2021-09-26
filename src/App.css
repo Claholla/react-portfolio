@@ -65,11 +65,16 @@ header a {
   padding: 15px 15px;
 }
 
-.links li a {
+.links:hover {
+  transition: all 0.3s ease-out 0s;
+  color: var(--primary);
+}
+
+.links a {
   transition: all 0.3s ease-out 0s;
 }
 
-.links li a:hover {
+.links a:hover {
   color: var(--primary);
 }
 
@@ -116,7 +121,7 @@ article section p {
 }
 
 /* Style and positioning of contact links. */
-.contactlinks a {
+.contactlinks {
   color: var(--secondary);
   text-decoration: none;
   border-bottom: 3px solid var(--primary);
