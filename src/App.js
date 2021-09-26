@@ -17,9 +17,6 @@ function App() {
           <Route exact path="/">
             <Homepage />
           </Route>
-          <Route exact path="/react-portfolio/">
-            <Homepage />
-          </Route>
           <Route exact path="/about">
             <Homepage />
           </Route>
